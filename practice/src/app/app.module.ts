@@ -8,6 +8,7 @@ import { JumboComponent } from './jumbo/jumbo.component';
 import { KajeenComponent } from './kajeen/kajeen.component';
 import { OliverComponent } from './oliver/oliver.component';
 import { MichaelComponent } from './michael/michael.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MichaelComponent } from './michael/michael.component';
     JumboComponent,
     KajeenComponent,
     OliverComponent,
-    MichaelComponent
+    MichaelComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
